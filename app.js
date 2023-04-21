@@ -40,7 +40,7 @@ function validarChave(){
         $("#modalLoadLogin").modal('show');
         setTimeout(function() {
             $("#modalLoadLogin").modal("hide");
-            window.location.href = 'index.html';
+            window.location.href = 'login.html';
         }, 4500);
     }
     else{
